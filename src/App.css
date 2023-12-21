@@ -1,3 +1,23 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.test {
+  position: relative;
+  margin: 5px 0;
+  width: 228px;
+  height: 280px;
+  /* border: solid 1px #eaedf4; */
+  border: solid 1px black;
+}

@@ -1,14 +1,18 @@
 import './App.css'
+import { Navbar } from './components/Navbar'
+import { Slider } from './components/MainSlider';
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/css/fontawesome.css';
+import '@fortawesome/fontawesome-free/css/solid.css';
+import '@fortawesome/fontawesome-free/css/regular.css';
+import '@fortawesome/fontawesome-free/css/brands.css';
 
 function App() {
 
   return (
     <>
-      <div className='flex flex-row'>
-        <h1 className="basis-1/4">hi</h1>
-        <h1 className="basis-1/4">hi</h1>
-        <h1 className="basis-1/2">hi</h1>
-      </div>
+      <Navbar/>
+      <Slider/>
     </>
   )
 }
